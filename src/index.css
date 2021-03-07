@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body
+{
+	background: linear-gradient(45deg,#EB3349,30%,#F45C43 90%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.head{
+	    display: flex;
+        justify-content: center;
+        font-family: 'Roboto'
+}
+.inputfield{
+	display: flex;
+    justify-content: center;
+    font-family: 'Roboto'
+ 
+}
+
+.insideInput{
+	padding: 13px;
+    border-radius: 10px;
+    width: 521px;
+    border-style: hidden;
+    font-family: 'Roboto'
+}
+
+.button{
+	padding:5px;
+    width: 100px;
+    margin-top: 6px;
+        border-style: dashed;
+    border-radius: 12px;
+        background: darkgray;
+       font-family: 'Roboto'
+}
+
+.box{
+	
+	height: 300px;
+	display: flex;
+	justify-content: center; 
+	    width: 511px;
+    margin-top: 20px;
+        background: beige;
+        margin-right: 93px;
+        font-family: 'Roboto'
+}
+
+.outerBox{
+	    display: flex;
+    justify-content: center;
 }
